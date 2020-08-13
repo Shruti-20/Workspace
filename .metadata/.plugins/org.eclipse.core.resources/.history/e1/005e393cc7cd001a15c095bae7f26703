@@ -1,0 +1,26 @@
+package com.demo;
+
+public class P2 {
+
+	public static void main(String[] args) {
+		System.out.println("from main");
+		System.out.println("main ends");
+		test(12,56.5,'a');
+		even(9);
+		even(6);
+	}
+	
+	public static void test(int a,double b,char i) {
+		double d=a+b+i;
+		System.out.println(d);
+	}
+	
+	public static void even(int f) {
+		if(f%2==0)
+		{System.out.println(f);}
+	}
+	
+
+}
+
+

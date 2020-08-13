@@ -1,0 +1,18 @@
+package com.demo;
+
+public class P2 {
+
+	public static void main(String[] args) {
+		System.out.println("hello");
+		System.out.println("Shruti");
+		System.out.println("Mishra");
+		insta();
+	}
+	
+	public static void insta() {
+		System.out.println("namaste");
+		System.out.println("vdakkam");
+	}
+	
+
+}
